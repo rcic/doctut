@@ -106,11 +106,11 @@ htmlhelp_basename = 'testColdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_logo1 = '_static/logo-colciencias-ng.png'
-
+latex_engine = 'pdflatex'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    'papersize': 'letterpaper',
+    'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
@@ -123,9 +123,11 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'fontpkg': r'''
-\usepackage{helvet}
-''',
+    'fncychap': '\\usepackage{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
+
+    'figure_align':'htbp',
+    
     'preamble': r'''
 \usepackage[titles]{tocloft}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
