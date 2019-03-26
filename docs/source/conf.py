@@ -136,7 +136,6 @@ latex_elements = {
     'figure_align':'htbp',
 
     'preamble': r'''
-\\documentclass[a4paper,12pt,twoside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
