@@ -22,7 +22,7 @@
 project = u'testCol'
 copyright = u'2019, James'
 author = u'James'
-
+logo1 = u'_static/logo-colciencias-ng.png'
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
@@ -153,7 +153,7 @@ latex_elements = {
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'testcol', u'testCol Documentation',
+    (master_doc, [logo1],'testcol', u'testCol Documentation',
      [author], 1)
 ]
 
