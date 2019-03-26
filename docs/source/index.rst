@@ -1,23 +1,16 @@
-#####################################
-Documento de tutoria meta: Doctut
-#####################################
+Bienvenido a testCol local!
+===================================
 
+Una prueba para mejorar la salida de PDFs.
 
-directrices-de-interoperabilidad-de-metadatos-de-la-red-colombiana-de-informacion-cientifica-RCIC
-=================================================================================================
-
-	print 'testJ'
-
-Guía
-^^^^
+Acción.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   
+   licencia
+   ayuda
 
-   introduction
-   use_of_oai_pmh
-   application_profile
 
 Indices y tablas
 ==================

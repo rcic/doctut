@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'doctut'
-copyright = u'2019, soporteM'
-author = u'soporteM'
+project = u'testCol'
+copyright = u'2019, James'
+author = u'James'
 
 # The short X.Y version
 version = u''
@@ -75,7 +75,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -102,7 +102,7 @@ html_static_path = ['nstatic']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'doctutdoc'
+htmlhelp_basename = 'testColdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -110,11 +110,11 @@ htmlhelp_basename = 'doctutdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '11pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -129,8 +129,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'doctut.tex', u'doctut Documentation',
-     u'soporteM', 'manual'),
+    (master_doc, 'testCol.tex', u'testCol Documentation',
+     u'James', 'manual', True),
 ]
 
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'doctut', u'doctut Documentation',
+    (master_doc, 'testcol', u'testCol Documentation',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'doctut', u'doctut Documentation',
-     author, 'doctut', 'One line description of project.',
+    (master_doc, 'testCol', u'testCol Documentation',
+     author, 'testCol', 'One line description of project.',
      'Miscellaneous'),
 ]
 
