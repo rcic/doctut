@@ -122,11 +122,9 @@ latex_elements = {
 
     # Latex figure (float) alignment
     #
-    'figure_align': '_static/logo-colciencias-ng.png',
+    # 'figure_align': 'htbp',
     'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
+\usepackage{helvet}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
