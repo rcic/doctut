@@ -147,7 +147,6 @@ latex_elements = {
 #     u'James', 'manual', True),
 #]
 
-
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
