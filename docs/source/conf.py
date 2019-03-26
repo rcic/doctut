@@ -122,7 +122,7 @@ latex_elements = {
 
     # Latex figure (float) alignment
     #
-    # 'figure_align': 'htbp',
+    'figure_align': '_static/logo-colciencias-ng.png',
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
@@ -144,7 +144,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'testCol.tex', u'testCol Documentation',
-     u'James', 'manual', False),
+     u'James', 'manual', True),
 ]
 
 # -- Options for manual page output ------------------------------------------
