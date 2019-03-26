@@ -137,6 +137,7 @@ latex_elements = {
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
+
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
