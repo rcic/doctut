@@ -107,16 +107,17 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 ADDITIONAL_PREAMBLE = r'''
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{fancyhdr} 
-\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhf{}
-\lhead{\includegraphics{_static/logo-colciencias-ng.png}}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\familydefault}{\sfdefault} 
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm} 
+\setlength\headwidth{\paperwidth}
+\fancyhfoffset[L]{3cm}\fancyhfoffset[R]{0pt}
+\fancyhead[L]{
+\includegraphics[scale=3]{logo-colciencias-ng.png}
+}
+\renewcommand{\headrulewidth}{4pt}
 '''
 # -- Options for HTMLHelp output ---------------------------------------------
 
