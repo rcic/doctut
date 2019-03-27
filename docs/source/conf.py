@@ -65,7 +65,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = u'es'
+#language = u'es'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -145,19 +145,19 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'testCol.tex', u'testCol Documentation',
-     u'James', 'manual',True),
-]
+#latex_documents = [
+#    (master_doc, 'testCol.tex', u'testCol Documentation',
+#     u'James', 'manual',True),
+#]
 
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc,'testcol', u'testCol Documentation',
-     [author], 1)
-]
+#man_pages = [
+#    (master_doc,'testcol', u'testCol Documentation',
+#     [author], 1)
+#]
 
 
 # -- Options for Texinfo output ----------------------------------------------
@@ -165,11 +165,11 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'testCol', u'testCol Documentation',
-     author, 'testCol', 'One line description of project.',
-     'Miscellaneous'),
-]
+#texinfo_documents = [
+#    (master_doc, 'testCol', u'testCol Documentation',
+#     author, 'testCol', 'One line description of project.',
+#     'Miscellaneous'),
+#]
 
 
 # -- Options for Epub output -------------------------------------------------
