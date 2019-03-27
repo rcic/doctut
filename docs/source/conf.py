@@ -131,7 +131,7 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'preamble': r'''\input{mystyle.tex.txt},
+    'preamble': r'''\input{estilo1.txt},
 ''',
 }
 
