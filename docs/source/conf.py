@@ -22,11 +22,11 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 project = u'testCol'
 copyright = u'2019, James'
-author = u'James'
+#author = u'James'
 # The short X.Y version
-version = u''
+#version = u''
 # The full version, including alpha/beta/rc tags
-release = u'0.0.1'
+#release = u'0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -130,15 +130,12 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'fncychap': '\\usepackage{fncychap}',
-    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
-
-    'figure_align':'htbp',
-
     'preamble': r'''
-\usepackage{charter}
-        \usepackage[defaultsans]{lato}
-        \usepackage{inconsolata}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 }
 
@@ -146,7 +143,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'testCol.tex', u'testCol Documentation',
+    (master_doc, 'testCol.tex', u'testCol Documentación',
      u'James', 'manual',True),
 ]
 
