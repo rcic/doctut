@@ -106,7 +106,7 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
-ADDITIONAL_PREAMBLE = '''
+ADDITIONAL_PREAMBLE = r'''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr} 
