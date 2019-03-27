@@ -143,12 +143,7 @@ latex_elements = {
 \fancyhead[L]{
 \includegraphics[scale=3]{logo-colciencias-ng.png}
 }
-\renewcommand{\headrulewidth}{0pt}
-\begin{document}
- \immediate\write18{date > testCol.tex}
-  \input{tmpdate}
-  \immediate\write18{rm testCol.tex}
-\end{document} 
+\renewcommand{\headrulewidth}{0pt} 
 ''',
 }
 
