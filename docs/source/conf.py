@@ -150,7 +150,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'testCol.tex', u'testCol Documentación',
+    (master_doc, 'testCol.tex', latex_logo,
      u'James', 'manual',True),
 ]
 
