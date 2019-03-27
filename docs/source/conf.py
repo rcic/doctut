@@ -132,7 +132,6 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
     'preamble': r'''
-\documentclass[a4paper,12pt]{article}
 \usepackage[top=120pt, bottom=4.3cm, left=3cm, right=2cm, headheight=95pt, footskip=66pt]{geometry}%
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
