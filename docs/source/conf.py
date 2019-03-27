@@ -150,10 +150,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-#latex_documents = [
-#    (master_doc, 'testCol.tex', u'testCol Documentation',
-#     u'James', 'manual'),
-#]
+latex_documents = [
+    (master_doc, 'testCol.tex', u'testCol Documentation',
+     u'Ferrer', 'manual'),
+]
 
 # -- Options for manual page output ------------------------------------------
 
