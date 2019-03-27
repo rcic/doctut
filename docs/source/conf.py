@@ -131,7 +131,25 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'preamble': r'''\input{estilo1.tex},
+    'preamble': r'''
+\documentclass[a4paper,12pt]{article}
+\usepackage[top=120pt, bottom=4.3cm, left=3cm, right=2cm, headheight=95pt, footskip=66pt]{geometry}%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headwidth{\paperwidth}
+\fancyhfoffset[L]{3cm}\fancyhfoffset[R]{0pt}
+\fancyhead[L]{
+\includegraphics[scale=3]{logo-colciencias-ng.png}
+}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+ \immediate\write18{date > testCol.tex}
+  \input{tmpdate}
+  \immediate\write18{rm testCol.tex}
+\end{document} 
 ''',
 }
 
