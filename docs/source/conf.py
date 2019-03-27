@@ -133,8 +133,13 @@ latex_elements = {
     # 'figure_align': 'htbp',
     'preamble': r'''
 \usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc} 
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} 
 \usepackage{helvet}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics{_static/logo-colciencias-ng.png}}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
