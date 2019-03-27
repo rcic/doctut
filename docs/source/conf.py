@@ -12,8 +12,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -25,7 +26,7 @@ author = u'James'
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = u'0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -144,10 +145,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-#latex_documents = [
-#    (master_doc, 'testCol.tex', u'testCol Documentation',
-#     u'James', 'manual',True),
-#]
+latex_documents = [
+    (master_doc, 'testCol.tex', u'testCol Documentation',
+     u'James', 'manual',True),
+]
 
 # -- Options for manual page output ------------------------------------------
 
