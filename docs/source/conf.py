@@ -136,15 +136,10 @@ latex_elements = {
     'figure_align':'htbp',
 
     'preamble': r'''
-\usepackage[utf8]{inputenc}
-\usepackage{fancyhdr}
- 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE,RO]{Overleaf}
-\fancyhead[RE,LO]{Guides and tutorials}
-\fancyfoot[CE,CO]{\leftmark}
-\fancyfoot[LE,RO]{\thepage}'''
+\usepackage{charter}
+        \usepackage[defaultsans]{lato}
+        \usepackage{inconsolata}
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -160,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc,'testcol', u'testCol Holaaaa',
+    (master_doc,'testcol', u'testCol Documentation',
      [author], 1)
 ]
 
