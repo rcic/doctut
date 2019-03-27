@@ -113,7 +113,6 @@ htmlhelp_basename = 'testColdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_logo = '_static/logo-colciencias-ng.png'
-latex_engine = 'pdflatex'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
