@@ -132,18 +132,14 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
     'preamble': r'''
-\usepackage[top=120pt, bottom=4.3cm, left=3cm, right=2cm, headheight=95pt, footskip=66pt]{geometry}%
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
-\setlength\headwidth{\paperwidth}
-\fancyhfoffset[L]{3cm}\fancyhfoffset[R]{0pt}
-\fancyhead[L]{
-\includegraphics[scale=3]{_static/logo-colciencias-ng.png}
+\renewcommand{\headheight}{0.6in}
+\setlength{\headwidth}{\textwidth}
+\fancyhead[L]{}% empty left
+\fancyhead[R]{ % right
+   \includegraphics[height=0.53in]{_static/logo-colciencias-ng.png}
 }
-\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
 ''',
 }
 
