@@ -132,14 +132,16 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
     'preamble': r'''
-\usepackage{fancyhdr}
-\renewcommand{\headheight}{0.6in}
-\setlength{\headwidth}{\textwidth}
-\fancyhead[L]{}% empty left
-\fancyhead[R]{ % right
-   \includegraphics[height=0.53in]{_static/logo-colciencias-ng.png}
-}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} 
+\usepackage{helvet}
 \pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics{_static/logo-colciencias-ng.png}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 }
 
