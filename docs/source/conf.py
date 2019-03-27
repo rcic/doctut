@@ -106,7 +106,18 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
-
+ADDITIONAL_PREAMBLE = """
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} 
+\usepackage{helvet}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics{_static/logo-colciencias-ng.png}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm} 
+"""
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
@@ -131,18 +142,7 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'preamble': r'''
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc}
-\usepackage{fancyhdr} 
-\usepackage{helvet}
-\pagestyle{fancy}
-\fancyhf{}
-\lhead{\includegraphics{_static/logo-colciencias-ng.png}}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\familydefault}{\sfdefault} 
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm} 
-''',
+    'preamble': ADDITIONAL_PREAMBLE,
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
