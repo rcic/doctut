@@ -106,7 +106,7 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
-ADDITIONAL_PREAMBLE = """
+ADDITIONAL_PREAMBLE = '''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr} 
@@ -117,7 +117,7 @@ ADDITIONAL_PREAMBLE = """
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm} 
-"""
+'''
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
